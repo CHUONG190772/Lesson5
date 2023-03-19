@@ -1,0 +1,13 @@
+.product-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 3rem 2rem; */
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: none;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0 , 0,.1);
+
+}

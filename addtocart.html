@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="addtocart.js" defer></script>
+    <link rel="stylesheet" href="addtocart.css">
+</head>
+
+<body>
+    <section class="product">
+        <div class="container">
+            <a href="index.html">
+                <h3 class="title">Product</h3>
+            </a>
+
+            <div class="product-container">
+
+                <div class="product" data-name="b-1">
+                    <a href="#"><img src="img/comendy1.jpg" /></a>
+                    <h1>book 1</h1>
+                    <span class="price">$20.0</span>
+                    <button>Add to cart</button>
+                </div>
+
+                <div class="product" data-name="b-2">
+                    <a href="#"><img src="img/comendy2.jpg" /></a>
+                    <h1> book 2</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+
+                <div class="product" data-name="b-3">
+                    <a href="#"><img src="img/comendy3.jfif" /></a>
+                    <h1>book 3</h1>
+                    <span class="price">$10.0</span>
+                    <button>Add to cart</button>
+                </div>
+
+                <div class="product" data-name="b-4">
+                    <a href="#"><img src="img/trinhtham1.jpg" /></a>
+                    <h1> book 4</h1>
+                    <span class="price">$20.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-5">
+                    <a href="#"><img src="img/trinhtham2.jpg" /></a>
+                    <h1> book 5</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-6">
+                    <a href="#"><img src="img/trinhtham3.jpg" /></a>
+                    <h1>book 6</h1>
+                    <span class="price">$10.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-7">
+                    <a href="#"><img src="img/Horror1.jpg" /></a>
+                    <h1> book 7</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-8">
+                    <a href="#"><img src="img/Horror2.jpg" /></a>
+                    <h1> book 8</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-9">
+                    <a href="#"><img src="img/Horror3.jpg" /></a>
+                    <h1> book 9</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-10">
+                    <a href="#"><img src="img/1.jpg" /></a>
+                    <h1> book 10</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-11">
+                    <a href="#"><img src="img/book2.jpg" /></a>
+                    <h1>Commendy book 11</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+                <div class="product" data-name="b-12">
+                    <a href="#"><img src="img/3.jpg" /></a>
+                    <h1> book 12</h1>
+                    <span class="price">$30.0</span>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cart">
+        <h2>Add to cart</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Items</th>
+                        <th>Price</th>
+                        <th>Value</th>
+                        <th>Chosse</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img style="width: 70px;" src="img/comendy1.jpg"
+                                alt="">Book 1</td>
+                        <td>
+                            <p><span class="price">$20.0</span></p>
+                        </td>
+                        <td><input type="number" value="1" min="0"></td>
+                        <td style="cursor: pointer;">Delete</td>
+                    </tr>
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img style="width: 70px;" src="img/comendy2.jpg"
+                                alt="">Book 1</td>
+                        <td>
+                            <p><span class="price">$20.0</span></p>
+                        </td>
+                        <td><input type="number" value="1" min="0"></td>
+                        <td style="cursor: pointer;">Delete</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align: right;" class="price-total"></div>
+            <p style="font-weight: bold;">Total:<span class="price">$20.0</span></p>
+        </form>
+
+    </section>
+
+</body>
+
+</html>

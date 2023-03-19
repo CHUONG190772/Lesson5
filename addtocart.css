@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+        overflow: none;
+    }
+body{
+    background: #eee;
+}
+button{
+    font-size: 4rem;
+    color: #262424;
+    background-color: rgb(175, 195, 195);
+    border-radius: 20% 20% 20% 20%;
+    left: 100rem;
+    text-align: center;
+}
+button:hover{
+    transform: scale(.6);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+.container .title{
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+.container .product-container .product{
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0 , 0,.1);
+    outline: .1rem solid #ccc;
+}
+.container .product-container .product:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+.container .product-container .product img{
+    height: 25rem;
+}
+.container .product-container .product:hover img{
+    transform: scale(.9);
+}
+.container .product-container .product h2{
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: #444;
+}
+.container .product-container .product:hover h2{
+    color: #27ae60;
+}
+.container .product-container .product .price{
+    font-size:  2.5rem;
+    color: #444;
+}
+.container .product-container .product button{
+    font-size: 2rem;
+    color: #fff;
+    background-color: aqua;
+    display: flex;
+}
+.cart {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart h2{
+    margin-bottom: 20px;
+}
+.cart table{
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+.cart table tr td{
+    border-bottom: 1px solid #ddd;
+    padding:  12px 0;
+}
+.cart table thead tr th :last-child{
+    text-align: right;
+}
+.cart table tbody tr th :last-child{
+    text-align: right;
+}
